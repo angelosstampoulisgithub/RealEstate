@@ -1,0 +1,622 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D60289383004452700E50F31 /* RentalSignRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D60289373004452700E50F31 /* RentalSignRow.swift */; };
+		D691EACA30005D2E00C61B24 /* RealEstateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691EAC930005D2E00C61B24 /* RealEstateApp.swift */; };
+		D691EACC30005D2E00C61B24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691EACB30005D2E00C61B24 /* ContentView.swift */; };
+		D691EACE30005D3000C61B24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D691EACD30005D3000C61B24 /* Assets.xcassets */; };
+		D691EAD130005D3000C61B24 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D691EAD030005D3000C61B24 /* Preview Assets.xcassets */; };
+		D691EADC30005D3000C61B24 /* RealEstateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691EADB30005D3000C61B24 /* RealEstateTests.swift */; };
+		D691EAE630005D3000C61B24 /* RealEstateUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691EAE530005D3000C61B24 /* RealEstateUITests.swift */; };
+		D691EAE830005D3000C61B24 /* RealEstateUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691EAE730005D3000C61B24 /* RealEstateUITestsLaunchTests.swift */; };
+		D691EAF630005DA800C61B24 /* RentSignData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691EAF530005DA800C61B24 /* RentSignData.swift */; };
+		D691EAF930005DC600C61B24 /* RentSignViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D691EAF830005DC600C61B24 /* RentSignViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D691EAD830005D3000C61B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D691EABE30005D2D00C61B24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D691EAC530005D2D00C61B24;
+			remoteInfo = RealEstate;
+		};
+		D691EAE230005D3000C61B24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D691EABE30005D2D00C61B24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D691EAC530005D2D00C61B24;
+			remoteInfo = RealEstate;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D60289373004452700E50F31 /* RentalSignRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentalSignRow.swift; sourceTree = "<group>"; };
+		D691EAC630005D2D00C61B24 /* RealEstate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealEstate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D691EAC930005D2E00C61B24 /* RealEstateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateApp.swift; sourceTree = "<group>"; };
+		D691EACB30005D2E00C61B24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D691EACD30005D3000C61B24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D691EAD030005D3000C61B24 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D691EAD230005D3000C61B24 /* RealEstate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RealEstate.entitlements; sourceTree = "<group>"; };
+		D691EAD730005D3000C61B24 /* RealEstateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealEstateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D691EADB30005D3000C61B24 /* RealEstateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateTests.swift; sourceTree = "<group>"; };
+		D691EAE130005D3000C61B24 /* RealEstateUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RealEstateUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D691EAE530005D3000C61B24 /* RealEstateUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateUITests.swift; sourceTree = "<group>"; };
+		D691EAE730005D3000C61B24 /* RealEstateUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealEstateUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D691EAF530005DA800C61B24 /* RentSignData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentSignData.swift; sourceTree = "<group>"; };
+		D691EAF830005DC600C61B24 /* RentSignViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RentSignViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D691EAC330005D2D00C61B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D691EAD430005D3000C61B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D691EADE30005D3000C61B24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D60289363004450700E50F31 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D691EACB30005D2E00C61B24 /* ContentView.swift */,
+				D60289373004452700E50F31 /* RentalSignRow.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D691EABD30005D2D00C61B24 = {
+			isa = PBXGroup;
+			children = (
+				D691EAC830005D2D00C61B24 /* RealEstate */,
+				D691EADA30005D3000C61B24 /* RealEstateTests */,
+				D691EAE430005D3000C61B24 /* RealEstateUITests */,
+				D691EAC730005D2D00C61B24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D691EAC730005D2D00C61B24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D691EAC630005D2D00C61B24 /* RealEstate.app */,
+				D691EAD730005D3000C61B24 /* RealEstateTests.xctest */,
+				D691EAE130005D3000C61B24 /* RealEstateUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D691EAC830005D2D00C61B24 /* RealEstate */ = {
+			isa = PBXGroup;
+			children = (
+				D60289363004450700E50F31 /* View */,
+				D691EAF730005DB800C61B24 /* ViewModel */,
+				D691EAF430005D9800C61B24 /* Model */,
+				D691EAC930005D2E00C61B24 /* RealEstateApp.swift */,
+				D691EACD30005D3000C61B24 /* Assets.xcassets */,
+				D691EAD230005D3000C61B24 /* RealEstate.entitlements */,
+				D691EACF30005D3000C61B24 /* Preview Content */,
+			);
+			path = RealEstate;
+			sourceTree = "<group>";
+		};
+		D691EACF30005D3000C61B24 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D691EAD030005D3000C61B24 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D691EADA30005D3000C61B24 /* RealEstateTests */ = {
+			isa = PBXGroup;
+			children = (
+				D691EADB30005D3000C61B24 /* RealEstateTests.swift */,
+			);
+			path = RealEstateTests;
+			sourceTree = "<group>";
+		};
+		D691EAE430005D3000C61B24 /* RealEstateUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D691EAE530005D3000C61B24 /* RealEstateUITests.swift */,
+				D691EAE730005D3000C61B24 /* RealEstateUITestsLaunchTests.swift */,
+			);
+			path = RealEstateUITests;
+			sourceTree = "<group>";
+		};
+		D691EAF430005D9800C61B24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D691EAF530005DA800C61B24 /* RentSignData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D691EAF730005DB800C61B24 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D691EAF830005DC600C61B24 /* RentSignViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D691EAC530005D2D00C61B24 /* RealEstate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D691EAEB30005D3000C61B24 /* Build configuration list for PBXNativeTarget "RealEstate" */;
+			buildPhases = (
+				D691EAC230005D2D00C61B24 /* Sources */,
+				D691EAC330005D2D00C61B24 /* Frameworks */,
+				D691EAC430005D2D00C61B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RealEstate;
+			productName = RealEstate;
+			productReference = D691EAC630005D2D00C61B24 /* RealEstate.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D691EAD630005D3000C61B24 /* RealEstateTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D691EAEE30005D3000C61B24 /* Build configuration list for PBXNativeTarget "RealEstateTests" */;
+			buildPhases = (
+				D691EAD330005D3000C61B24 /* Sources */,
+				D691EAD430005D3000C61B24 /* Frameworks */,
+				D691EAD530005D3000C61B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D691EAD930005D3000C61B24 /* PBXTargetDependency */,
+			);
+			name = RealEstateTests;
+			productName = RealEstateTests;
+			productReference = D691EAD730005D3000C61B24 /* RealEstateTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D691EAE030005D3000C61B24 /* RealEstateUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D691EAF130005D3000C61B24 /* Build configuration list for PBXNativeTarget "RealEstateUITests" */;
+			buildPhases = (
+				D691EADD30005D3000C61B24 /* Sources */,
+				D691EADE30005D3000C61B24 /* Frameworks */,
+				D691EADF30005D3000C61B24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D691EAE330005D3000C61B24 /* PBXTargetDependency */,
+			);
+			name = RealEstateUITests;
+			productName = RealEstateUITests;
+			productReference = D691EAE130005D3000C61B24 /* RealEstateUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D691EABE30005D2D00C61B24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					D691EAC530005D2D00C61B24 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					D691EAD630005D3000C61B24 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D691EAC530005D2D00C61B24;
+					};
+					D691EAE030005D3000C61B24 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = D691EAC530005D2D00C61B24;
+					};
+				};
+			};
+			buildConfigurationList = D691EAC130005D2D00C61B24 /* Build configuration list for PBXProject "RealEstate" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D691EABD30005D2D00C61B24;
+			productRefGroup = D691EAC730005D2D00C61B24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D691EAC530005D2D00C61B24 /* RealEstate */,
+				D691EAD630005D3000C61B24 /* RealEstateTests */,
+				D691EAE030005D3000C61B24 /* RealEstateUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D691EAC430005D2D00C61B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D691EAD130005D3000C61B24 /* Preview Assets.xcassets in Resources */,
+				D691EACE30005D3000C61B24 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D691EAD530005D3000C61B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D691EADF30005D3000C61B24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D691EAC230005D2D00C61B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D691EAF930005DC600C61B24 /* RentSignViewModel.swift in Sources */,
+				D691EAF630005DA800C61B24 /* RentSignData.swift in Sources */,
+				D691EACC30005D2E00C61B24 /* ContentView.swift in Sources */,
+				D691EACA30005D2E00C61B24 /* RealEstateApp.swift in Sources */,
+				D60289383004452700E50F31 /* RentalSignRow.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D691EAD330005D3000C61B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D691EADC30005D3000C61B24 /* RealEstateTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D691EADD30005D3000C61B24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D691EAE830005D3000C61B24 /* RealEstateUITestsLaunchTests.swift in Sources */,
+				D691EAE630005D3000C61B24 /* RealEstateUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D691EAD930005D3000C61B24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D691EAC530005D2D00C61B24 /* RealEstate */;
+			targetProxy = D691EAD830005D3000C61B24 /* PBXContainerItemProxy */;
+		};
+		D691EAE330005D3000C61B24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D691EAC530005D2D00C61B24 /* RealEstate */;
+			targetProxy = D691EAE230005D3000C61B24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D691EAE930005D3000C61B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D691EAEA30005D3000C61B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D691EAEC30005D3000C61B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RealEstate/RealEstate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealEstate/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macos.RealEstate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D691EAED30005D3000C61B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RealEstate/RealEstate.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"RealEstate/Preview Content\"";
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macos.RealEstate;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D691EAEF30005D3000C61B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macos.RealEstateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealEstate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealEstate";
+			};
+			name = Debug;
+		};
+		D691EAF030005D3000C61B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macos.RealEstateTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RealEstate.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RealEstate";
+			};
+			name = Release;
+		};
+		D691EAF230005D3000C61B24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macos.RealEstateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RealEstate;
+			};
+			name = Debug;
+		};
+		D691EAF330005D3000C61B24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K6LJCT8RAA;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.macos.RealEstateUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = RealEstate;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D691EAC130005D2D00C61B24 /* Build configuration list for PBXProject "RealEstate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D691EAE930005D3000C61B24 /* Debug */,
+				D691EAEA30005D3000C61B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D691EAEB30005D3000C61B24 /* Build configuration list for PBXNativeTarget "RealEstate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D691EAEC30005D3000C61B24 /* Debug */,
+				D691EAED30005D3000C61B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D691EAEE30005D3000C61B24 /* Build configuration list for PBXNativeTarget "RealEstateTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D691EAEF30005D3000C61B24 /* Debug */,
+				D691EAF030005D3000C61B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D691EAF130005D3000C61B24 /* Build configuration list for PBXNativeTarget "RealEstateUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D691EAF230005D3000C61B24 /* Debug */,
+				D691EAF330005D3000C61B24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D691EABE30005D2D00C61B24 /* Project object */;
+}
